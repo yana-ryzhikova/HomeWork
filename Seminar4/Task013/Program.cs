@@ -25,7 +25,7 @@ int SumNumbers(int number)
 }
 bool ValidateNumber(int number)
 {
-    if (number < 10) // При числе меньше чем 1 не работаем
+    if (number < 10)
     {
         System.Console.WriteLine("Число однозначное, сумма не считается");
         return false;
